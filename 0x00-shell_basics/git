@@ -1,5 +1,4 @@
 #!/bin/bash
-read var
 git add . 
-git commit -m '${var}'
+git commit -m 'shell basics'
 git push -f
