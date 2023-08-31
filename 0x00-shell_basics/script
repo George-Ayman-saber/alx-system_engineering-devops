@@ -3,4 +3,4 @@ echo 'file name'
 read var
 echo 'content '
 read content
-echo ${content} > ${var}
+echo "#!/bin/bash /endl  ${content}" > ${var}
