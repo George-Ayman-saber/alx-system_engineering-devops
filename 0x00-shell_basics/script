@@ -3,7 +3,7 @@ echo 'file name'
 read var
 echo 'content '
 read content
-echo "#!/bin/bash /endl
+echo "#!/bin/bash
 ${content}" > ${var}
 
 chmod +x ${var}
