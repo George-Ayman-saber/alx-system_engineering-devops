@@ -1,4 +1,4 @@
 #!/bin/bash
 git add . 
 git commit -m 'shell basics'
-git push -f
+git push origin master
