@@ -5,4 +5,4 @@ echo "content"
 read content 
 echo "#!/bin/bash
 ${content}" > ${var}
-
+chmod +x ${var}
